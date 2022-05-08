@@ -16,141 +16,144 @@
 <body>
         <header id="header" >
             <nav id ="nav-bar">
-            <img id="header-img" src="/image/Coffee cup logo.png" alt="company's logo" height="50" width="70">
-            <h1>Original Trombones</h1>
-            <a href="#features" class="nav-link"><p>Features</p></a>
-            <a href="#video" class="nav-link"><p>How It Works</p></a>
-            <a href="#pricing" class="nav-link"><p>Pricing</p></a>
+            <img id="header-img" src="/image/product-landing-page-logo.png" alt="company's logo" height="34" width="300">
+            <!-- <h1 class="header">Original Trombones</h1> -->
+            <p id="nav-links1"><a href="#features" class="nav-link">Features</a></p>
+            <p id="nav-links2"><a href="#video" class="nav-link">How It Works</a></p>
+            <p id="nav-links3"><a href="#pricing" class="nav-link">Pricing</a></p>
             </nav>
         </header>
         <br>
 
-    <div>
+    <section id="body">
         <h2>
             Handcrafted, home-made masterpieces
         </h2>
         <form action="https://www.freecodecamp.com/email-submit" id="form">
             <input id="email" type="email" name="email" placeholder="Enter you email address" required>
-            <input id="submit" type="submit" value ="GET STARTED">
+            <input type="submit" id="submit" name="submit" value="GET STARTED">
         </form>
-    </div>
+    </section>
 
-    <div id="features">
-        <div>
-            <h2>
+    <section id="features">
+        <div class="actual-features">
+            <h2 class="features-header">
                 Premium Materials
             </h2>
-            <p>
+            <p class="features-parag">
                 Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your
                 purchase.
             </p>
         </div>
 
-        <div>
-            <h2>
+        <div class="actual-features">
+            <h2 class="features-header">
                 Fast Shipping
             </h2>
-            <p>
+            <p class="features-parag">
                 We make sure you receive your trombones as soon as we have finished making it. We aalso provide free
                 returns if you are not satisfied.
             </p>
         </div>
 
-        <div>
-            <h2>
+        <div class="actual-features">
+            <h2 class="features-header">
                 Quality Assurance
             </h2>
-            <p>
+            <p class="features-parag">
                 For every purchase you make, we will ensure there are no damages or faults and we will check and test
                 the pitch of your instrument.
             </p>
         </div>
         <br>
+    </section>
 
         <iframe id="video" width="420" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" frameborder="0" allowfullscreen>A video of men playing trombones at a Roman Carnival</iframe>
 
-        <div id="pricing">
+        <section id="pricing">
 
-            <div>
-                <h3>
+            <div class="single_pricing">
+                <h3 class="single_pricing_header">
                     TENOR TROMBONE
                 </h3>
-                <h3>
+                <h3 class="price">
                     $600
                 </h3>
-                <p>
-                    Lorem, ipsum.
-                </p>
-                <p>
-                    Lorem, ipsum.
-                </p>
-                <p>
-                    Lorem, ipsum dolor.
-                </p>
-                <p>
-                    Lorem, ipsum.
-                </p>
-            </div> <br>
+                <div class="single-pricing-p">
+                    <p>
+                        Lorem, ipsum.
+                    </p>
+                    <p>
+                        Lorem, ipsum.
+                    </p>
+                    <p>
+                        Lorem, ipsum dolor.
+                    </p>
+                    <p>
+                        Lorem, ipsum.
+                    </p>
+                </div>
+                <button class="pricing_buttons">SELECT</button>
+            </div> 
 
-            <div>
-                <h3>
+            <div class="single_pricing" >
+                <h3 class="single_pricing_header">
                     BASS TROMBONE
                 </h3>
-                <h3>
+                <h3 class="price">
                     $900
                 </h3>
-                <p>
-                    Lorem, ipsum.
-                </p>
-                <p>
-                    Lorem, ipsum.
-                </p>
-                <p>
-                    Lorem, ipsum dolor.
-                </p>
-                <p>
-                    Lorem, ipsum.
-                </p>
-            </div> <br>
-
-            <div>
-                <h3>
-                    VALVE TROMBONE
-                </h3>
-                <h3>
-                    $1200
-                </h3>
-                <p>
-                    Lorem, ipsum.
-                </p>
-                <p>
-                    Lorem, ipsum.
-                </p>
-                <p>
-                    Lorem, ipsum dolor.
-                </p>
-                <p>
-                    Lorem, ipsum.
-                </p>
+                <div class="single-pricing-p">
+                    <p >
+                        Lorem, ipsum.
+                    </p>
+                    <p>
+                        Lorem, ipsum.
+                    </p>
+                    <p>
+                        Lorem, ipsum dolor.
+                    </p>
+                    <p>
+                        Lorem, ipsum.
+                    </p>
+                </div>
+                <button class="pricing_buttons">SELECT</button>
             </div>
 
-        </div>
+            <div class="single_pricing">
+                <h3 class="single_pricing_header">
+                    VALVE TROMBONE
+                </h3>
+                <h3 class="price">
+                    $1200
+                </h3>
+                <div class="single-pricing-p">
+                    <p>
+                        Lorem, ipsum.
+                    </p>
+                    <p>
+                        Lorem, ipsum.
+                    </p>
+                    <p>
+                        Lorem, ipsum dolor.
+                    </p>
+                    <p>
+                        Lorem, ipsum.
+                    </p>
+                </div>
+                <button class="pricing_buttons">SELECT</button>
+            </div>
 
-        <div>
-            <table>
-                <tr>
-                    Privacy Terms Contact
-                </tr> <br>
-                <tr>
-                    Copyright2016,Original Trombones
-                </tr>
-            </table>
+        </section>
 
-        </div>
-
-
-    </div>
-
+        <footer id="footer-container">
+            <div id="footer-body">
+                <p><a href="#form" class="footer-p">Privacy</a></p>
+                <p><a href="#form" class="footer-p">Terms</a></p>
+                <p><a href="#form" class="footer-p">Contacts</a></p>
+            </div>
+            <p>Copyright2016, Original Trombones</p>
+        </footer>
 </body>
 
 </html>
