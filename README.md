@@ -15,4 +15,4 @@ The Product Webpage was designed using a mobile-first approach. Characteristics 
 - A form used to collect details of potential clients
 - Hyperlinks to different parts of the webpage for better user experience
 
-The website can be viewed using the link: [https://amarafinbarrs.github.io/Product_Page/]
+The website can be viewed using the link: [https://amarafinbarrs.github.io/Product_Page/](https://amarafinbarrs.github.io/Product_Page/)
